@@ -63,6 +63,7 @@ This application is built entirely in R and powered by:
     ```R
     install.packages(c("shiny", "shinycssloaders", "ggplot2", "dplyr", "patchwork", "Seurat", "harmony", "purrr", "tibble", "scales"))
     ```
+	Alternatively, run the install_packages.R script. 
 
 3.  **File Structure:**
     Ensure your directory is structured correctly. The application expects the image file to be in a `www` subdirectory.
