@@ -59,26 +59,29 @@ This application is built entirely in R and powered by:
     ```
 
 2.  **Install Required R Packages:**
-    Open `app.R` in RStudio. The script loads all necessary libraries at the top. You can install them by running the following command in the R console:
+    Excecute the `install_packages.R` script to install the required packages. 
+	Alternatively, you can install them by running the following command in the R console:
     ```R
     install.packages(c("shiny", "shinycssloaders", "ggplot2", "dplyr", "patchwork", "Seurat", "harmony", "purrr", "tibble", "scales"))
     ```
-	Alternatively, run the install_packages.R script. 
 
 3.  **File Structure:**
     Ensure your directory is structured correctly. The application expects the image file to be in a `www` subdirectory.
     ```
     /your-app-folder
-    ├── app.R
+    ├── cell_comic_game.R
     ├── functions.R
+    ├── install_packages.R
+    ├── README.md
+    ├── LICENSE
     ├── /cache
     └── /www
-        └── header_image.png
+        └── header_logo.png
     ```
 
 ### Launch the App
 
-Open the `app.R` file in RStudio and click the "Run App" button in the top-right corner of the editor pane.
+Open the `cell_comic_game.R` file in RStudio and click the "Run App" button in the top-right corner of the editor pane.
 
 ## Contact
 
