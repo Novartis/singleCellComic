@@ -62,7 +62,7 @@ This application is built entirely in R and powered by:
     Excecute the `install_packages.R` script to install the required packages. 
 	Alternatively, you can install them by running the following command in the R console:
     ```R
-    install.packages(c("shiny", "shinycssloaders", "ggplot2", "dplyr", "patchwork", "Seurat", "harmony", "purrr", "tibble", "scales"))
+    install.packages(c("shiny", "shinycssloaders", "ggplot2", "dplyr", "patchwork", "Seurat", "harmony", "purrr", "tibble", "scales", "stringr", "ggforce", "circlize"))
     ```
 
 3.  **File Structure:**
